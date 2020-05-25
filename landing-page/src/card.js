@@ -15,7 +15,7 @@ function Card() {
         <div className="row text-center">
             <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card h-100">
-                    <img className="card-img-top" src= {cardContent.url} alt></img>
+                    <img className="card-img-top" src= {cardContent.url} alt=""></img>
                     <div className="card-body">
                         <h4 className="card-title">{cardContent.title}</h4> 
                         <p className="card-text">{cardContent.text}</p>
@@ -27,7 +27,7 @@ function Card() {
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card h-100">
-                    <img className="card-img-top" src= {cardContent.url} alt></img>
+                    <img className="card-img-top" src= {cardContent.url} alt=""></img>
                     <div className="card-body">
                         <h4 className="card-title">{cardContent.title}</h4> 
                         <p className="card-text">{cardContent.text}</p>
@@ -39,7 +39,7 @@ function Card() {
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card h-100">
-                    <img className="card-img-top" src= {cardContent.url} alt></img>
+                    <img className="card-img-top" src= {cardContent.url} alt=""></img>
                     <div className="card-body">
                         <h4 className="card-title">{cardContent.title}</h4> 
                         <p className="card-text">{cardContent.text}</p>
@@ -51,7 +51,7 @@ function Card() {
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card h-100">
-                    <img className="card-img-top" src= {cardContent.url} alt></img>
+                    <img className="card-img-top" src= {cardContent.url} alt=""></img>
                     <div className="card-body">
                         <h4 className="card-title">{cardContent.title}</h4> 
                         <p className="card-text">{cardContent.text}</p>
