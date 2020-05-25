@@ -7,7 +7,6 @@ import Card from './card';
 function App() {
   return (
     <>
-        
         <Card/>
         <Footer/>
     </>
