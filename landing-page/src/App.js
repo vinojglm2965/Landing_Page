@@ -9,9 +9,12 @@ import Navbar from './navbar';
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <Navbar/>
       <div className="container">
         <Jumbotron/>
+=======
+>>>>>>> c34e4e100ea90928fe5eb93ebdc6f104cb901ef7
         <Card/>
       </div>
       <Footer/>
@@ -20,3 +23,4 @@ function App() {
 }
 
 export default App;
+
