@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as Jumbotromp from './jumbotromp';
-import * as Navbar from './navbar';
+import Navbar from './navbar';
+import Jumbotron from './jumbotromp';
+import Card from './card';
+import Footer from './footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 function App() {
-    
-       return(
-            <>
-            <Navbar.Nav/>
-            <div className= "container">
-            <Jumbotromp.Jumbo/>
-            </div>
-            </>
-       )
+  return (
+    <>
+      <Navbar/>
+      <div className="container">
+        <Jumbotron/>
+        <Card/>
+      </div>
+      <Footer/>
+    </>
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
